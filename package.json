@@ -3,7 +3,7 @@
     "author": "hellcatz",
     "version": "0.0.6",
     "scripts": {
-        "install": "env V=1 node-gyp rebuild",
+        "install": "env V=1 node-gyp rebuild --debug",
         "test": "node test.js"
     },
     "main": "verushash",
@@ -11,5 +11,8 @@
         "bindings": "*",
         "nan": "*",
         "node-gyp": "*"
+    },
+    "engines": {
+        "node": ">=0.12"
     }
 }
