@@ -22,7 +22,7 @@
                 "verushash.cc",
             ],
             "include_dirs": [
-                "<!(nodejs -e \"require('nan')\")",
+                "<!(node -e \"require('nan')\")",
                 ".",
                 "/usr/include"
             ],
@@ -54,7 +54,7 @@
                 "-std=c++11",
                 "-Wl,--whole-archive",
                 "-fPIC",
-                "-fexceptions"
+                "-fexceptions",
                 "-O2"
             ],
             "link_settings": {
