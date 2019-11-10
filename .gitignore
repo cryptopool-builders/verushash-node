@@ -1,5 +1,5 @@
-/node_modules
-/.lock-wscript
-/build
-/crypto.node
-/.vscode
+.lock-wscript
+build/
+crypto.node
+.vscode/settings.json
+/node_modules/

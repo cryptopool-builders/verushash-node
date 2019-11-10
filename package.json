@@ -3,10 +3,10 @@
     "author": "hellcatz",
     "version": "0.0.6",
     "scripts": {
+        "install": "env V=1 node-gyp rebuild",
         "test": "node test.js"
     },
     "main": "verushash",
-    "bundleDependencies": true,
     "dependencies": {
         "bindings": "*",
         "nan": "*",
