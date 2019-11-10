@@ -33,7 +33,7 @@
                 "-Wl,--whole-archive",
                 "-fPIC",
                 "-fexceptions",
-                "-Ofast",
+                "-O2",
                 "-march=native",
                 "-msse4",
                 "-msse4.1",
@@ -41,21 +41,21 @@
                 "-mssse3",
                 "-mavx",
                 "-mpclmul",
-                "-maes",
-            ],
-            "cflags_cc": [
-                "-std=c++11",
-                "-Wl,--whole-archive",
-                "-fPIC",
-                "-fexceptions",
-                "-O2"
+                "-maes"
             ],
             "cflags": [
                 "-std=c++11",
                 "-Wl,--whole-archive",
                 "-fPIC",
                 "-fexceptions",
-                "-O2"
+                "-O2",
+                "-msse4",
+                "-msse4.1",
+                "-msse4.2",
+                "-mssse3",
+                "-mavx",
+                "-mpclmul",
+                "-maes"
             ],
             "link_settings": {
                 "libraries": [
